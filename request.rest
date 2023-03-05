@@ -1,0 +1,18 @@
+###
+GET http://localhost:3000/
+
+###
+GET http://localhost:3000/contacts
+
+
+###
+POST http://localhost:3000/delete-contact
+Content-Type: application/json
+
+{
+    "contact_id": "42"
+}
+
+###
+GET http://localhost:3000/contact/48
+Content-Type: application/json
